@@ -1,0 +1,641 @@
+/* || GENERAL STYLES */
+body {
+  background-color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.classBody {
+  background-image: url("../img/backgroundImg.png");
+  background-repeat: repeat-x;
+  background-color: white;
+}
+
+/* ||container */
+.container {
+  max-width: 1055px;
+  width: auto;
+  /* height: 1325px; */
+  margin: auto;
+}
+
+.colorDekoration-p {
+color: #6A6A6A;
+}
+
+/* ||Header - nav bar  */
+header {
+  height: 79px;
+  background-color: grey;
+  background-image: url("../img/footer.png");
+  width: 100%;
+  max-width: 1055px;
+  margin: 0 auto;
+  font-family: 'Rubik', sans-serif;
+}
+
+#headerHome {
+  display: none;
+}
+
+.homeIcon {
+  border-radius: 5px;
+}
+
+.flex {
+  flex-grow: 0;
+  background-color: transparent;
+}
+
+.nav-link {
+  margin-left: 1rem;
+  color: white !important;
+}
+
+.container-fluid {
+  margin: 0 3.3rem 0 3.3rem;
+}
+
+/* || promitac */
+.promitac{
+  font-family: 'Rubik', sans-serif;
+}
+
+.promitac .carousel-indicators [data-bs-target] {
+  text-indent: 0;
+}
+
+.carousel-indicators {
+  overflow: hidden;
+  opacity: 1;
+}
+
+.carusel-napis {
+  color: black;
+  font-size: 2rem;
+  position: absolute;
+  top: 40%;
+}
+
+.carusel-napis-lev {
+  left: 10%;
+}
+
+.carusel-napis-zebra {
+  left: 5%;
+}
+
+.carusel-napis-tiger {
+  color: black;
+  left: 5%;
+}
+
+.carusel-napis1 {
+  font-size: 4rem;
+  font-weight: bold;
+  position: relative;
+  top: -5.31rem;
+}
+
+.carusel-napis1-lev {
+  left: 85%;
+}
+
+.carusel-napis1-zebra {
+  left: 65%;
+}
+
+.carusel-napis1-tiger {
+  left: 75%;
+}
+
+.carusel-napis2 {
+  font-size: 1rem;
+  position: relative;
+}
+
+.carusel-napis2-lev {
+  left: 5.93rem;
+  top: -5rem;
+}
+
+.carusel-napis2-zebra {
+  left: 82%;
+  top: -5rem;
+}
+
+.carusel-napis2-tiger {
+  left: 86%;
+  ;
+  top: -5rem;
+}
+
+#caruselMiniLev.active {
+  background-image: url("../img/lionSmall.png") !important;
+}
+
+#caruselMiniZebra.active {
+  background-image: url("../img/ZEBRATMAVA.png") !important;
+}
+
+#caruselMiniTiger.active {
+  background-image: url("../img/TYGRTMAVY.png") !important;
+}
+
+.carusel-mini.active {
+  color: white !important;
+}
+
+.carusel-mini {
+  color: black;
+  background-color: grey;
+  position: relative;
+  border: 2px !important;
+  border-radius: 5px;
+  width: 26% !important;
+  height: 78px !important;
+  opacity: 1 !important;
+}
+
+#caruselMiniLev {
+  background-image: url("../img/lionSmallWhite.png");
+}
+
+#caruselMiniZebra {
+  background-image: url("../img/ZEBRABILY.png");
+}
+
+#caruselMiniTiger {
+  background-image: url("../img/TYGRBILY.png");
+}
+
+.caruselMiniNapis{
+position: absolute !important;
+left: 12% !important;
+top: 33% !important;
+}
+
+.arrow {
+  position: absolute;
+  left: -938px;
+  top: -16px;
+}
+
+.promitac {
+  position: relative;
+}
+
+/* || Mapa */
+.mapa {
+  text-align: center;
+}
+
+.mapaNadpis {
+  margin: 1% 0 0;
+  color: #6A6A6A;
+}
+
+.mapaMiniRamObrazku {
+  display: inline;
+  position: absolute;
+}
+
+.mapaMiniObrazky {
+  display: inline;
+  border: 3px solid;
+  border-color: black;
+  border-radius: 100%;
+  height: 38px;
+  width: 38px;
+}
+
+.mapaMiniCedule {
+  display: none;
+  background-color: black;
+  color: white;
+  border: 1px solid;
+  border-color: black;
+  border-radius: 3px;
+  padding: 10px;
+  z-index: 4;
+  position: absolute;
+  left: -33px;
+  top: -50px;
+  width: max-content;
+}
+
+.mapaZvirat {
+  text-align: justify;
+  position: relative;
+  padding-top: 22.748%;
+  width: 100%;
+  background-size: cover;
+  background-color: lightblue;
+  background-image: url(../img/MAP2.png);
+}
+
+.mapArrow {
+  display: inline;
+  position: absolute;
+  left: 15px;
+  top: 37px;
+}
+
+.mini1 {
+  left: 18.95%;
+  top: 22.08%;
+}
+
+.mini2 {
+  left: 24.17%;
+  top: 11.25%;
+}
+
+.mini3 {
+  left: 25.59%;
+  top: 41.66%;
+}
+
+.mini4 {
+  left: 34.407%;
+  top: 2.916%;
+}
+
+.mini5 {
+  left: 49.099%;
+  top: 37.5%;
+}
+
+.mini6 {
+  left: 61.8%;
+  top: 24.916%;
+}
+
+.mini7 {
+  left: 68.646%;
+  top: 9.166%;
+}
+
+.mini8 {
+  left: 80.947%;
+  top: 42.5%;
+}
+
+.displayInitial {
+  display: initial;
+}
+
+.mapArrow-down {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  position: absolute;
+  left: 14px;
+  top: 37px;
+  border-top: 5px solid black;
+}
+
+.mapaMiniRamObrazku:hover .mapaMiniCedule {
+  display: inline;
+}
+
+.mapaMiniRamObrazku:hover .mapArrow-down {
+  left: 14px;
+  top: -4px;
+}
+
+/*  || container2 */
+.container2 {
+  max-width: 942px;
+  width: auto;
+  margin: 0 auto 0 auto;
+}
+
+/* || Aktuality */
+.aktuality {
+  margin-top: 1%;
+}
+
+.aktualityH2 {
+  position: absolute;
+  padding: 0 10px;
+  color: #6A6A6A;
+  background-color: white;
+  left: 41%;
+  top: -23px;
+}
+
+.aktualityNadpis {
+  position: relative;
+}
+
+.aktualityRow {
+  border-top: 2px solid;
+  border-color: #E8E8E8;
+  max-width: 942px;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.aktualityBox {
+  text-align: left;
+  position: relative;
+}
+
+.aktualityText {
+  display: inline-block;
+  position: absolute;
+  left: 99px;
+  top: 10px;
+  font-family: 'Rubik', sans-serif;
+}
+
+.aktualityH3 {
+  font-size: 14px;
+  text-decoration: underline;
+  text-decoration-color: #6A6A6A;
+  margin-bottom: 2px;
+}
+
+.aktualityP {
+  font-size: 11px;
+  color: #6A6A6A;
+  padding-right: 10%;
+}
+
+.aktualityImg {
+  height: 70px;
+  width: 70px;
+  padding: 5px;
+  border: 1px solid #E8E8E8;
+  display: inline-block;
+}
+
+/* || Novinky */
+.novinky {
+  margin: 12% auto 4%;
+}
+
+.mb-3 {
+  margin-bottom: 0.6rem !important;
+}
+
+.NovinkyH2 {
+  left: 33%;
+}
+
+.NovinkyForm {
+  margin: 0 20%;
+}
+
+.col-sm-2 {
+  width: 30%;
+  text-align: right;
+}
+
+.col-sm-10 {
+  width: 60%;
+}
+
+.novinkyBtn {
+  width: fit-content;
+  margin: 0 0 0 31.9%;
+  cursor: pointer;
+  font-family: 'Rubik', sans-serif;
+}
+
+.form-select {
+  cursor: pointer;
+}
+
+/* ||carusel2 */
+.carusel2text {
+  position: relative;
+}
+
+.bodyCarusel {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto 6% !important;
+  max-width: 845px;
+  width: auto;
+}
+
+#wrapper {
+  width: 100%;
+  max-width: 964px;
+  position: relative;
+}
+
+#carousel {
+  overflow: auto;
+  scroll-behavior: smooth;
+
+}
+
+#carousel::-webkit-scrollbar {
+  height: 0;
+}
+
+#prev,
+#next {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background: white;
+  border: none;
+  padding: 8px;
+  border-radius: 50%;
+  outline: 0;
+  cursor: pointer;
+  position: absolute;
+}
+
+#prev {
+  top: 50%;
+  left: 0;
+  transform: translate(-150%, -25%);
+  border-right-color: #D0D0D0;
+  /* arrow color #4C4C4C #D0D0D0 */
+  /* display: none; */
+}
+
+#next {
+  top: 50%;
+  right: 0;
+  transform: translate(150%, -25%);
+  border-left-color: #4C4C4C;
+}
+
+#content {
+  display: grid;
+  grid-gap: 15px;
+  grid-auto-flow: column;
+  margin: auto;
+  box-sizing: border-box;
+  color: white;
+}
+
+.item {
+  width: 200px;
+  height: 80px;
+  background: green;
+  border-radius: 5px;
+}
+
+/* ---- carusel2 pictures */
+.carusel2Obojzivelnici {
+  background-image: url("../img/OBOJZIVELNICI.png");
+}
+
+.carusel2Savci {
+  background-image: url("../img/SAVCI.png");
+}
+
+.carusel2Ryby {
+  background-image: url("../img/RYBY.png");
+}
+
+.carusel2Plazi {
+  background-image: url("../img/PLAZI.png");
+}
+
+.carusel2Clenovci {
+  background-image: url("../img/CLENOVCI.png");
+}
+
+.carusel2Hmyz {
+  background-image: url("../img/HMYZ.png");
+}
+
+.carusel2Odkaz {
+  text-decoration: none;
+  color: white;
+}
+
+.carusel2Nazev {
+  text-align: right;
+  text-decoration: none;
+  padding-top: 15%;
+  margin: 10%;
+  font-size: 18px;
+  font-family: 'Rubik', sans-serif;
+}
+
+.carusel2ArrowL {
+  border: 15px solid transparent;
+  border-right-color: inherit;
+}
+
+.carusel2ArrowR {
+  border: 15px solid transparent;
+  border-left-color: inherit;
+}
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  color: inherit;
+}
+
+/* || footer */
+footer {
+  color: white;
+  background-color: blue;
+  background-image: url("../img/footer.png");
+  height: 56px;
+}
+
+.footerText {
+  padding-top: 17px;
+  max-width: 942px;
+  width: auto;
+  margin: 0 auto;
+  font-family: 'Rubik', sans-serif;
+}
+
+.footer {
+  float: left;
+}
+
+.footerImg {
+  margin-left: 98%;
+
+}
+
+/*  responsiv break points -------------------------------------*/
+
+@media only screen and (max-width: 700px) {
+  .bodyCarusel {
+    max-width: 215px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .bodyCarusel {
+    max-width: 630px;
+  }
+  img.homeIcon {
+    display: none
+  }
+
+  #headerHome {
+    display: block;
+  }
+
+  .navbar-collapse {
+    z-index: 77;
+    background-color: grey !important;
+    background-image: url("../img/footer.png");
+  }
+
+  .carusel-mini {
+    height: 50px !important;
+  }
+
+  .classBody {
+    background-image: none;
+    background-repeat: repeat-x;
+    background-color: white;
+  }
+
+  .carusel-napis {
+    top: 20% !important;
+  }
+}
+
+/*  sub-page advanced -------------------------------  */
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  height: auto;
+  margin-top: 5rem;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 16px 80px 16px 20px;
+}
+
+#customers tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#customers tr:hover {
+  background-color: #ddd;
+}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: black;
+  color: white;
+}
+
+#filter {}
